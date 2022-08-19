@@ -7,7 +7,7 @@ const nuevaString = "hola";
 const nuevoNum = 13;
 
 // Crea una variable booleana:
-const nuevoBool = me gusta;
+const nuevoBool = "me gusta";
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -128,7 +128,7 @@ function esPar(num) {
   }
   return false;
 }
-esPar(5):// false
+esPar(5);// false
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
