@@ -140,42 +140,49 @@ function esImpar(num) {
  return true;
 }
 esImpar(5)// true
+
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
+    return num **2;
 }
+elevarAlCuadrado(5);// 25
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  
+      return num **3;
 }
+elevarAlCubo(3);// 27
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  
+  return num ** exponent;
 }
+elevar(5,5);//3125
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  return num=Math.round(20.56);
 }
+redondearNumero();//21
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+  return Math.ceil (num);
 }
+redondearHaciaArriba(5.4);// 6
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+   return Math.random();
 }
+numeroRandom();//0.8787869280666791
 
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
